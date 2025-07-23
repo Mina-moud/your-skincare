@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>your skincare🌸</title>
+<link rel="icon" href="image1.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="welcoming" align="center" style="color: deeppink;">welcome!</h1>
+
+<div align="center" class="first" >
+<p>Hi there, welcome to Your Skincare!
+     <br>
+    Here I'll accompany you on your skincare journey where you'll discover more about your skin type and how to take care of it 😊 
+    <br><br>
+    Now if you're ready, please enter your name down here to start this trip!
+</p>
+<form>
+    <label for="username"> 🌸<u>enter your username:</u></label>
+    <input type="text" name="username" id="username">🌸
+     <button id="entername">Enter</button>
+</form>
+  
+<br><br>
+</div>
+<br>
+<div class="second">
+<p>
+<!--after learning java script make this paragraphe use the username-->
+<br> <br> 
+<p>Hi <span id="nameDisplay"></span>!</p>
+<br>
+First of all, let's talk a little about skin types — what they are, their characteristics, and how to know your type,
+<br>
+in order to set your skincare routine.
+<br>
+<br> So first you have to know that there are 5 basic skin types:
+<ul>
+    <li>Normal skin</li>
+    <li>Oily skin</li>
+    <li>Dry skin</li>
+    <li>Combination skin</li>
+    <li>sensitive skin</li>
+</ul>
+<br>
+<u>And thera are their main characteristics:</u>
+<dl>
+    <dt><b>🌿Normal skin:</b></dt>
+    <dd>This type is known for balanced oil and moisture levels, so it's not too shiny or too dry.
+    <br>
+    Also, it has a smooth texture and rarely breaks out.
+    </dd>
+    <dt><b>💧Oily skin:</b></dt>
+    <dd>It has a shiny appearance especially in the T-zone, enlarged pores, and frequent blackheads or pimples.
+     <br>
+        Also, you remark that your makeup wears off quickly, and it has a greasy feeling. 
+    </dd>
+    <dt><b>🧴Dry skin:</b></dt>
+    <dd>It feels tight or rough, has flaky or scaly patches, fine pores that are hard to see, and a dull look.
+</dd>
+    <dt><b>🔁Combination skin:</b></dt>
+<dd>It's oily in the T-zone (forehead, nose, chin), with dry or normal cheeks.
+    <br>
+    It breaks out in oily areas, which makes it have an uneven texture and need targeted care in different zones.
+</dd>
+    <dt><b>🎀Sensitive skin:</b></dt>
+     <dd>This type is easily irritated. It may have redness, stinging, or burning with some products.
+     <br>
+     It may react to weather, fragrances, or even water — which makes it need gentle, calming care.
+    </dd>
+</dl>
+</p>
+<button id="Continue">Continue</button>
+<br><br><br>
+</div>
+<br>
+<div align="center" class="third">
+ <p class="A" style="color: brown;"> <br><br>  So now the question is: How to know your skin type?
+</p>
+If you already know your skin type you can tell me so you can start your skin care now ! 
+<br>
+And if you don't know itt already, don't worry, I'll help you discovering that😊
+<br>
+all you need is doing the type test and I'll tell you about your skin type!
+<br><br>
+<form >
+<input type="radio" name="skin-type" id="type1" value="normal skin">
+<label for="type 1">Normal skin</label>
+<br>
+<input type="radio" name="skin-type" id="type2" value="oily skin">
+<label for="type 2">Oily skin</label>
+<br>
+<input type="radio" name="skin-type" id="type3" value="dry skin">
+<label for="type 3">Dry skin</label>
+<br>
+<input type="radio" name="skin-type" id="type4" value="combination skin">
+<label for="type 4">Combination skin</label>
+<br>
+<input type="radio" name="skin-type" id="type5" value="sensitive skin">
+<label for="type 5">Sensitive skin</label>
+<br>
+<input type="radio" name="skin-type" id="type6" value="do a skin type test🌸">
+<label style="color: deeppink;" for="type6">Do a skin type test🌸</label>
+<br>
+<input type="submit" value="chose" id="chose">
+<br><br>
+</form>
+<img src="image2.jpg" height="300px" width="500px" id="imageTypes" >
+</div>
+<br><br>
+<div class="fourth">
+    <br>
+<h3 align="center" style="color: deeppink;">Welcome to the skin type test🌸😊!</h3>
+<br>
+   Here are some questions you can answer them so i can tell you more about your skin type:
+<br><br>
+<form >
+ <b>1.How does your face feels a few hours after cleansing?</b>
+ <br> <br> 
+    <input type="radio" name="feeling after cleansing" id="A1" value="normalSkin">
+    <label for="A1">fresh and balanced</label>
+<br>
+    <input type="radio" name="feeling after cleansing" id="B1" value="oilySkin">
+    <label for="B1">greasy or shiny</label>
+<br>
+    <input type="radio" name="feeling after cleansing" id="C1" value="drySkin">
+    <label for="C1">tight or rough</label>
+<br>
+    <input type="radio" name="feeling after cleansing" id="D1" value="combinationSkin">
+    <label for="D1">oily in some areas, dry in others</label>
+<br>
+     <input type="radio" name="feeling after cleansing" id="E1" value="sensitiveSkin">
+     <label for="E1">Feels irritated, itchy, or stings sometimes</label>    
+<br><br>
+<b>2.How visible are your pores?</b>
+ <br><br>  
+    <input type="radio" name="pores" id="A2" value="normalSkin">
+    <label for="A2">not visible </label> 
+<br>
+    <input type="radio" name="pores" id="B2" value="oilySkin">
+    <label for="B2">large and visible, especially on nose/forhead</label>    
+<br>
+    <input type="radio" name="pores" id="C2" value="drySkin">
+    <label for="C2">very small or barely noticable</label> 
+<br>    
+    <input type="radio" name="pores" id="D2" value="combinationSkin">
+    <label for="D2">large in T-zone, small elsewhere</label>
+<br>
+<input type="radio" name="pores" id="E2" value="sensitiveSkin">
+<label for="E2">Not very visible, but skin is often red or inflamed</label>
+
+<br><br>
+<b>3.How often do you get pimples or blackheads? </b>   
+<br>  <br>  
+    <input type="radio" name="pimples" id="A3" value="normalSkin">
+    <label for="A3">rarely</label>   
+<br>    
+    <input type="radio" name="pimples" id="B3" value="oilySkin">
+    <label for="B3">often</label>
+<br>    
+    <input type="radio" name="pimples" id="C3" value="drySkin">
+    <label for="C3">seldom, but sometimes dry spots instead</label>
+<br>    
+    <input type="radio" name="pimples" id="D3" value="combinationSkin">
+    <label for="D3">only in some areas (like forhead or chin)</label>
+<br>
+<input type="radio" name="pimples" id="E3" value="sensitiveSkin">
+<label for="E3">I get red patches or burning instead of pimples</label>
+
+<br><br>
+<b>4.How does your skin react to new skincare produts?</b>
+<br> <br>   
+    <input type="radio" name="skin care products react" id="A4" value="normalSkin">
+    <label for="A4">no problem</label>
+<br>    
+    <input type="radio" name="skin care products react" id="B4" value="oilySkin">
+    <label for="B4">fine, but sometimes oily</label>    
+<br>    
+    <input type="radio" name="skin care products react" id="C4" value="drySkin">
+    <label for="C4">often irritated or flaky</label>
+<br>    
+    <input type="radio" name="skin care products react" id="D4" value="combinationSkin">
+    <label for="D4">some areas react, others don't</label>
+<br>    
+<input type="radio" name="skin care products react" id="E4" value="sensitiveSkin">
+<label for="E4">Often burns, stings, or becomes red</label>
+
+    <br><br>
+<b>5.How does your skin look in the middle pf theday?</b>
+<br>    <br>
+    <input type="radio" name="middle of day" id="A5" value="normalSkin">
+    <label for="A5">still fresh</label>    
+<br>    
+    <input type="radio" name="middle of day" id="B5" value="oilySkin">
+    <label for="B5">shiny or greasy</label> 
+<br>    
+    <input type="radio" name="middle of day" id="C5" value="drySkin">
+    <label for="C5">dull or flaky</label> 
+<br>    
+    <input type="radio" name="middle of day" id="D5" value="combinationSkin">
+    <label for="D5">shiny in T-zone only</label> 
+<br>    
+<input type="radio" name="middle of day" id="E5" value="sensitiveSkin">
+<label for="E5">Slight redness or dry, itchy patches</label>
+
+<br><br>
+<b>6.What happens when the weather gets cold?</b>
+<br>    <br>
+    <input type="radio" name="weather reaction" id="A6" value="normalSkin">
+    <label for="A">no bigchange</label> 
+<br>    
+    <input type="radio" name="weather reaction" id="B6" value="oilySkin">
+    <label for="B">slightly oily still</label>  
+<br>    
+    <input type="radio" name="weather reaction" id="C6" value="drySkin">
+    <label for="C">becomes very dry or tight</label>      
+<br>    
+    <input type="radio" name="weather reaction" id="D6" value="combinationSkin">
+    <label for="D">dry cheeks but oily forehead</label> 
+<br>
+    <input type="radio" name="weather reaction" id="E6" value="sensitiveSkin">
+    <label for="E6">It becomes red, itchy, or uncomfortable</label>
+
+</form>
+    <p>
+You can also do the bare-face test.
+<br>
+first of all you need to wash your face with a gentle cleanser, then pet dry gently with a towel, and leave your skin bare (no moisturizer or product)
+<br>
+and wait 1 hour then go to a mirror and check the result.
+<br>
+And you can tell me your skin type depending on that;
+<br><br>
+🌿 Normal: Skin feels smooth, not shiny or tight. No dry flakes or oil spots.
+<br><br>
+💧 Oily: Forehead, nose, and cheeks look shiny or feel greasy.
+<br><br>
+🧴 Dry: Skin feels tight, rough, or has flakes, especially on cheeks.
+<br><br>
+🔁 Combination: T-zone is oily, but cheeks are dry or normal.
+<br><br>
+🎀 Sensitive: Skin may look red, feel itchy, or sting during the hour.
+<br><br>
+
+</p>
+<br><br>
+    <form >
+        <input id="checkB" type="submit" value="check my skin type 😊">
+    </form>
+    <br>
+</div>
+<div class="normalSkin">
+    <h2 align="center" style="color: crimson ;" >your skin type is normal skin!</h2>
+<h3 align="center">🌿Welcome to the normal skin routine😊 </h3>
+<p>
+    If you have normal skin, that means your skin is naturally well-balanced—not too oily, not too dry. It's smooth, clear, and not too sensitive.
+    <br> But even normal skin needs daily care to stay healthy, glowing, and protected from sun, pollution, and aging. Here's a simple and effective routine 
+    <br>to keep your skin at its best—without overcomplicating things
+</p>
+<dl>
+    <dt><b>☀️Morning routine:</b></dt>
+    <dd>
+       <b class="one">Cleanser: </b><br>
+🧼 Use a gentle, water-based cleanser to remove oil and sweat from sleep. <br>
+🔸 Example: Gel or foam cleanser (no alcohol or harsh ingredients). <br><br>
+
+<b class="one">Toner (Optional):</b> <br>
+💧 Helps refresh the skin and balance ph <br>
+🔸 Look for hydrating or soothing toners (like rose water or glycerin-based). <br><br>
+
+    <b class="one">Serum (Optional):</b> <br>
+✨ Lightweight formulas with active ingredients. <br>
+🔸 A Vitamin C serum helps brighten the skin and protect from sun damage. <br><br>
+
+    <b class="one">Moisturizer:</b><br>
+🧴 Keeps skin hydrated all day. <br>
+🔸 Choose a lightweight, non-greasy formula with ingredients like hyaluronic acid or glycerin. <br><br>
+
+<b class="one">Sunscreen (Very Important):</b><br>
+☀️ Protects from UV damage and aging. <br>
+🔸 Use SPF 30 or higher, even if you're indoors most of the day <br>
+    </dd>
+<br>
+<dt><b>🌙Night routine:</b></dt>
+<dd>
+    <br>
+  <b class="one">Cleanser:</b> <br>
+🧼 Double cleanse if you wore sunscreen or makeup: <br>
+<ul>
+ <li> 1st: Oil cleanser or micellar water. </li>
+ <li> 2nd: Gentle face cleanser </li>
+</ul>
+<br>
+<b class="one">Toner:</b> <br>
+💧 Same as morning or a more hydrating version at night. <br>
+Serum (Optional): <br>
+🌙 At night, you can use hydrating (hyaluronic acid), repairing (niacinamide), or anti-aging (retinol) serums. <br>
+⚠️ Start slow with actives like retinol (2–3 times a week). <br>
+<br>
+<b class="one">Moisturizer: </b><br>
+🧴 Night creams can be a bit richer to help repair the skin overnight. <br>
+🔸 Look for peptides or ceramides. <br>
+</dd>
+<br>
+<dt><b>🧽Weekly Extras:</b></dt>
+<dd>
+    Exfoliate 1–2 times/week: <br>
+🔸 Use a gentle scrub or chemical exfoliant (like AHA/BHA) to remove dead skin <br>
+
+Face Mask 1–2 times/week: <br>
+🔸 Hydrating masks (like sheet masks) or clay masks if you want to feel extra clean. <br>
+</dd>
+<br>
+<dt><b>And here are some natural recipes for normal skin 💧🌿🍯:</b></dt>
+<dd>
+   <b class="one"> 1. Honey + Yogurt Mask:</b> <br>
+Ingredients: <br>
+1 tablespoon honey. <br>
+1 tablespoon plain yogurt. <br>
+Effect: <br>
+✨ Brightens, hydrates, and smooths skin. Yogurt gently exfoliates, and honey nourishes. <br>
+<br>
+
+<b class="one">2. Banana + Honey Mask:</b><br> 
+Ingredients: <br>
+½ ripe banana. <br>
+1 teaspoon honey. <br>
+Effect: <br>
+🍌 Moisturizes and softens the skin. Great for glow and a smooth texture. <br>
+<br>
+<b class="one">3. Avocado + Olive Oil Mask:</b> <br>
+Ingredients: <br>
+¼ ripe avocado. <br>
+1 teaspoon olive oil. <br>
+Effect: <br>
+🥑 Deep hydration and nourishment. Perfect for soft, plump skin. <br>
+<br>
+  <b> 💅🏻 Masks application:</b> <br>
+1.Wash your face and dry it.
+<br>
+2.Apply mask with clean fingers or a brush—thin, even layer.
+<br>
+3.Avoid eyes and lips.
+<br>
+4.Leave for 15–20 mins.
+<br>
+5.Rinse with lukewarm water and pat dry.
+<br>
+6.Moisturize after.
+<br><br>
+</dd>
+</dl>
+</div>
+<div class="oilySkin">
+     <h2 align="center" style="color: crimson ;" >your skin type is oily skin!</h2>
+<h3 align="center">💧Welcome to the oily skin routine😊 </h3>
+<p>
+    If you have oily skin, your face may feel greasy during the day, especially in the T-zone (forehead, nose, chin). 
+    <br>You might also notice large pores, blackheads, or occasional acne. This happens when your skin produces too much sebum 
+    <br>(natural oil). But with the right routine, oily skin can stay clear, fresh, and balanced—without stripping it dry.
+<br>
+Here’s a simple routine to help control oil and keep your skin healthy and shine-free <br>
+</p>
+<dl>
+<dt><b>🌞 Morning Routine:</b></dt>
+<dd>
+  <b class="two"> Cleanser:</b><br>
+🧼 Use a foaming or gel cleanser that removes excess oil without drying.<br>
+🔸 Look for ingredients like salicylic acid, tea tree, or niacinamide.<br><br>
+
+<b class="two">Toner:</b><br>
+💧 Balances oil and tightens pores.<br>
+🔸 Choose alcohol-free formulas with witch hazel, green tea, or rose water.<br><br>
+
+<b class="two">Serum (Optional):</b><br>
+✨ Lightweight serums that help control oil and reduce acne.<br>
+🔸 Try niacinamide, zinc, or vitamin C.<br></br>
+
+<b class="two">Moisturizer:</b><br>
+🧴 Even oily skin needs hydration!<br>
+🔸 Use oil-free, non-comedogenic gel or water-based moisturizers (like aloe vera or glycerin).<br><br>
+
+<b class="two">Sunscreen (Essential):</b><br>
+☀️ Protects your skin without clogging pores.<br>
+🔸 Choose matte finish, gel-based, or mineral sunscreens with SPF 30+.<br><br>
+</dd>
+<dt><b>🌙Night routine:</b></dt>
+<dd>
+   <b class="two"> Cleanser:</b><br>
+🧼 Double cleanse if you wore sunscreen or makeup.<br>
+1st: Micellar water or gentle cleansing oil.<br>
+2nd: Foaming cleanser with acne-fighting ingredients (like salicylic acid).<br><br>
+
+<b class="two">Toner:</b><br>
+💧 Helps reduce oil and tighten pores overnight.<br>
+🔸 Can be the same as morning or a slightly stronger one (but still alcohol-free).<br><br>
+
+<b class="two">Serum (Optional)</b><br>
+🌙 Use lightweight serums that fight oil and acne.<br>
+🔸 Niacinamide, retinol, or AHA/BHA (use exfoliating serums only 2–3x/week).<br><br>
+
+<b class="two">Moisturizer:</b><br>
+🧴 A light, oil-free night gel or lotion.<br>
+🔸 Look for ingredients like green tea, centella, or aloe.<br><br>
+</dd>
+<dt><b>🧽Weekly Extras:</b></dt>
+<dd>
+    • Exfoliate (1–2 times/week):<br>
+🔸 Use a chemical exfoliant (like salicylic acid or glycolic acid) to unclog pores and reduce shine.<br>
+❗ Avoid harsh scrubs that can irritate oily skin.
+<br>
+• Face Mask (1–2 times/week)<br>
+🔸 Try clay masks (like kaolin or bentonite) to absorb oil and clean pores.<br>
+🔸 Optional: Use charcoal or green tea masks for extra detox.<br>
+</dd>
+<br>
+<dt><b>And here are some natural recipes for oily skin 💧🌿🍯:</b></dt>
+<dd>
+<b class="two">1. Yogurt + Lemon Juice Mask,</b><br>
+    Ingredients:<br>
+1 tablespoon plain yogurt<br>
+½ teaspoon fresh lemon juice<br>
+Effect:<br>
+🍋 Controls excess oil and brightens skin. Lemon has astringent properties, and yogurt soothes and gently exfoliates.<br><br>
+
+<b class =two>2. Clay + Rose Water Mask:</b><br>
+Ingredients:<br>
+1 tablespoon kaolin or multani mitti (fuller's earth) clay<br>
+Enough rose water to form a smooth paste<br>
+Effect:<br>
+🧼 Absorbs oil, tightens pores, and purifies skin. Clay draws out impurities while rose water calms the skin.<br><br>
+
+<b class="two">3. Egg White + Honey Mask:</b><br>
+Ingredients:<br>
+1 egg white<br>
+1 teaspoon honey<br>
+Effect:<br>
+🥚 Controls shine, tightens skin, and minimizes pores. Egg white firms the skin while honey provides gentle hydration without making it greasy<br><br>
+
+  <b> 💅🏻 Masks application:</b> <br>
+1.Wash your face and dry it.
+<br>
+2.Apply mask with clean fingers or a brush—thin, even layer.
+<br>
+3.Avoid eyes and lips.
+<br>
+4.Leave for 15–20 mins.
+<br>
+5.Rinse with lukewarm water and pat dry.
+<br>
+6.Moisturize after.
+<br><br>
+</dd>
+</dl>
+</div>
+<div class="drySkin">
+<h2 align="center" style="color: crimson ;" >your skin type is dry skin!</h2>
+<h3 align="center">🧴Welcome to the dry skin routine😊 </h3>
+<p>If you have dry skin, your face might often feel tight, rough, or flaky—especially after cleansing or during cold weather.<br>
+     Dry skin happens when your skin doesn’t produce enough natural oils (sebum), leading to dehydration and sensitivity. <br>
+     But with gentle care and rich hydration, your skin can become soft, smooth, and healthy.<br>
+Here’s a simple routine to restore moisture and keep dry skin nourished and glowing</p>
+
+<dl>
+<dt><b>🌞 Morning Routine:</b></dt>
+<dd>
+<b >Cleanser:</b><br>
+🧼 Use a creamy or hydrating cleanser that cleans without stripping natural oils.<br>
+🔸 Look for ingredients like glycerin, hyaluronic acid, or oat extract.<br><br>
+
+<b >Toner:</b><br>
+💧 Use a hydrating, alcohol-free toner to prep your skin.<br>
+🔸 Choose formulas with rose water, chamomile, or aloe vera.<br><br>
+
+<b >Serum (Optional):</b><br>
+
+✨ Add deep hydration and glow.<br>
+🔸 Try hyaluronic acid, vitamin E, or panthenol (pro-vitamin B5).<br><br>
+
+<b >Moisturizer:</b><br>
+🧴 Use a rich, creamy moisturizer that deeply nourishes.<br>
+🔸 Look for ceramides, shea butter, or squalane.<br><br>
+
+<b >Sunscreen (Essential):</b><br>
+☀️ Protects from UV rays without drying the skin.<br>
+🔸 Choose a hydrating sunscreen with SPF 30+, preferably cream-based.<br><br>
+</dd>
+<dt><b>🌙 Night Routine:</b></dt>
+<dd>
+<b >Cleanser:</b><br>
+🧼 Use a gentle, creamy cleanser or an oil cleanser to remove makeup and dirt without drying out the skin.<br><br>
+
+<b >Toner:</b><br>
+💧 Hydrating toner helps prepare skin for overnight products.<br>
+🔸 Use the same as morning, or a slightly richer one.<br><br>
+
+<b >Serum (Optional):</b><br>
+🌙 Apply a hydrating serum to deeply replenish overnight.<br>
+🔸 Best options: hyaluronic acid, peptides, or rosehip oil.<br><br>
+
+<b >Moisturizer:</b><br>
+🧴 Use a deep night cream or sleeping mask.<br>
+🔸 Ingredients to look for: ceramides, niacinamide, or argan oil.<br><br>
+</dd>
+
+<dt><b>🧽Weekly Extras:</b></dt>
+<dd>
+    • Exfoliate (1x/week):<br>
+🔸 Use a gentle chemical exfoliant (like lactic acid) or a mild scrub.<br>
+❗ Don’t over-exfoliate—dry skin is sensitive!<br>
+
+• Face Mask (1–2 times/week):<br>
+🔸 Use hydrating masks to boost moisture levels.<br>
+🔸 Look for ingredients like avocado, honey, oats, or aloe vera.<br>
+</dd>
+<br>
+<dt><b>And here are some natural recipes for dry skin 🥑🍯💧:</b></dt>
+<dd>
+<b>1. Avocado + Honey Mask:</b><br>
+Ingredients:<br>
+¼ ripe avocado<br>
+1 teaspoon honey<br>
+Effect:<br>
+🥑 Deeply hydrates and softens dry, flaky skin. Avocado is rich in healthy fats, and honey locks in moisture.<br><br>
+
+<b>2. Yogurt + Oatmeal Mask:</b>
+Ingredients:<br>
+1 tablespoon plain yogurt.<br>
+1 tablespoon ground oats.<br>
+Effect:<br>
+🌾 Soothes and gently exfoliates. Oats calm irritation, while yogurt moisturizes and smooths skin.<br><br>
+<b>3. Aloe Vera + Olive Oil Mask</b>
+Ingredients:<br>
+1 tablespoon aloe vera gel.<br>
+½ teaspoon olive oil.<br>
+Effect:<br>
+🍃 Soothes, heals, and deeply nourishes. Great for very dry, irritated, or sensitive skin.<br><br>
+</dd>
+</dl>
+  <b> 💅🏻 Masks application:</b> <br>
+1.Wash your face and dry it.
+<br>
+2.Apply mask with clean fingers or a brush—thin, even layer.
+<br>
+3.Avoid eyes and lips.
+<br>
+4.Leave for 15–20 mins.
+<br>
+5.Rinse with lukewarm water and pat dry.
+<br>
+6.Moisturize after.
+<br><br>
+</div>
+
+<div class="combinationSkin">
+<h2 align="center" style="color: crimson ;" >your skin type is combination skin!</h2>
+<h3 align="center">🔁Welcome to the combination skin routine😊 </h3>
+
+    <p>
+If you have combination skin, your face may be oily in the T-zone (forehead, nose, chin) and dry or normal on the cheeks.<br>
+ You might notice occasional breakouts in the oily areas and dryness or tightness in others. The challenge is balancing both needs<br>
+ but with the right care, your skin can feel even, fresh, and healthy.<br>
+Here’s a simple and balanced routine to help care for both the oily and dry areas of your face:
+</p>
+<dl>
+<dt><b>🌞 Morning Routine:</b></dt>
+<dd>
+   <b class="four"> Cleanser:</b><br>
+🧼 Use a gentle gel or foaming cleanser that cleans without drying.<br>
+🔸 Look for niacinamide, green tea, or glycerin—ingredients that suit both zones.<br><br>
+
+<b class="four">Toner:</b><br>
+💧 Refreshes and balances oil.<br>
+🔸 Choose alcohol-free toners with witch hazel, rose water, or aloe vera.<br><br>
+
+<b class="four">Serum (Optional):</b><br>
+✨ Helps target specific areas.<br>
+🔸 Use a lightweight serum like vitamin C or niacinamide all over, or apply hydrating serum on dry areas only.<br><br>
+
+<b class="four">Moisturizer:</b><br>
+🧴 Choose a light moisturizer that hydrates without being greasy.<br>
+🔸 Gel or lotion-type for the T-zone, creamier on the cheeks if needed.<br>
+🔸 Look for hyaluronic acid, glycerin, or squalane.<br><br>
+
+<b class="four">Sunscreen (Essential):</b><br>
+☀️ Protects your skin and prevents uneven texture.<br>
+🔸 Use a non-greasy, broad-spectrum SPF 30+—gel-based or hybrid formulas are great.<br><br>
+</dd>
+<dt><b>🌙 Night Routine:</b></dt>
+<dd>
+  <b class="four"> Cleanser:</b><br>
+🧼 Use the same gentle cleanser as morning, or double cleanse if you wore makeup or sunscreen.<br>
+
+<b class="four">Toner:</b><br>
+💧 Preps your skin for serum and moisturizer.<br>
+🔸 You can use the same one from morning or a slightly richer one on drier areas.<br><br>
+
+<b class="four">Serum (Optional):</b><br>
+🌙 Use a hydrating serum (like hyaluronic acid) on dry areas, and niacinamide or retinol on oily/acne-prone areas.<br>
+🔸 Or choose a well-balanced serum suitable for the whole face.<br><br>
+
+<b class="four">Moisturizer:</b><br>
+🧴 Light night cream or apply different textures on different areas.<br>
+🔸 Richer cream on cheeks, lighter gel on T-zone.<br><br>
+</dd>
+<dt><b>🧽Weekly Extras:</b></dt>
+<dd>
+    • Exfoliate (1–2 times/week):<br>
+🔸 Use gentle exfoliants like AHA/BHA to clear pores and smooth skin.<br>
+🔸 You can apply exfoliant only on oily areas if your cheeks are sensitive.<br>
+
+• Face Mask (1–2 times/week):<br>
+🔸 Try multi-masking:<br>
+ – Clay mask on the T-zone to absorb oil.<br>
+ – Hydrating mask on cheeks to soothe dryness<br>
+🔸 Or choose a balancing mask with both detox + moisture effects.<br><br>
+</dd>
+<dt><b>And here are some natural recipes for combination skin 🌿🍯✨:</b></dt>
+<dd>
+    <b class="four">1. Honey + Aloe Vera Mask:</b>
+Ingredients:<br>
+1 teaspoon honey.<br>
+1 teaspoon aloe vera gel.<br>
+Effect:<br>
+🍯 Soothes dry areas and controls oil. Aloe calms and hydrates, while honey balances and nourishes.<br><br>
+
+<b class="four">2. Oatmeal + Yogurt Mask:</b>
+Ingredients:<br>
+1 tablespoon ground oats.<br>
+1 tablespoon plain yogurt.<br>
+Effect:<br>
+🌾 Gently exfoliates and hydrates. Oats calm dry skin, yogurt helps with oil control and smooth texture.<br><br>
+
+<b class="four">3. Clay + Rose Water (T-Zone only):</b>
+Ingredients:<br>
+1 tablespoon kaolin or multani mitti clay.<br>
+Enough rose water to form a paste.<br>
+Effect:<br>
+🧼 Absorbs oil, reduces shine, and clears pores. Perfect for the oily T-zone.<br><br>
+
+  <b> 💅🏻 Masks application:</b> <br>
+1.Wash your face and dry it.
+<br>
+2.Apply mask with clean fingers or a brush—thin, even layer.
+<br>
+3.Avoid eyes and lips.
+<br>
+4.Leave for 15–20 mins.
+<br>
+5.Rinse with lukewarm water and pat dry.
+<br>
+6.Moisturize after.
+<br><br>
+</dd>
+</dl>
+</div>
+<div class="sensitiveSkin">
+<h2 align="center" style="color: crimson ;" >your skin type is sensitive skin!</h2>
+<h3 align="center">🎀Welcome to the sensitive skin routine😊 </h3>
+<p>
+    If you have sensitive skin, your skin might easily react to new products, weather changes, or harsh ingredients.<br>
+     You may experience redness, burning, itching, or tightness. The key is to keep your routine simple, soothing, and gentle to protect your skin’s barrier and avoid irritation.<br>
+Here’s a calming and protective routine to keep your skin comfortable and healthy:
+</p>
+
+<dl>
+<dt><b>🌞 Morning Routine:</b></dt>
+<dd>
+<b class="five">Cleanser:</b><br>
+🧼 Use a very gentle, fragrance-free cleanser that doesn’t strip your skin.<br>
+🔸 Look for micellar water, creamy cleansers, or ones with oat extract, glycerin, or panthenol.<br><br>
+
+<b class="five">Toner (Optional):</b><br>
+💧 Only if your skin tolerates it. Use alcohol-free, calming toners.<br>
+🔸 Choose rose water, chamomile, or aloe vera toners.<br><br>
+
+<b class="five">Serum (Optional):</b><br>
+✨ Add only if your skin is used to serums. Use calming ones.<br>
+🔸 Try niacinamide, centella asiatica, or hyaluronic acid (low strength).<br><br>
+
+<b class="five">Moisturizer:</b><br>
+🧴 A rich, soothing moisturizer is essential.<br>
+🔸 Go for fragrance-free, hypoallergenic creams with ceramides, squalane, or colloidal oatmeal.<br><br>
+
+<b class="five">Sunscreen (Essential):</b><br>
+☀️ Protects your skin and prevents irritation from UV.<br>
+🔸 Choose mineral (physical) sunscreens with zinc oxide or titanium dioxide, preferably fragrance-free and formulated for sensitive skin.<br><br>
+</dd>
+<dt><b>🌙 Night Routine:</b></dt>
+<dd>
+<b class="five">Cleanser:</b><br>
+🧼 Use the same gentle cleanser as in the morning. Avoid over-washing.<br><br>
+
+<b class="five">Toner (Optional):</b><br>
+💧 Only if your skin is not reactive to it—use the same as morning.<br><br>
+
+<b class="five">Serum (Optional):</b><br>
+🌙 Use a soothing, hydrating serum if needed.<br>
+🔸 Ingredients like panthenol, allantoin, or green tea extract are great.<br><br>
+
+<b class="five">Moisturizer:</b><br>
+🧴 Apply a richer night cream to support skin repair overnight.<br>
+🔸 Look for ceramides, niacinamide (low %), and shea butter.<br><br>
+</dd>
+<dt><b>🧽 Weekly Extras:</b></dt>
+<dd>
+• Exfoliate (1x/week MAX):<br>
+🔸 Use only very mild exfoliants if needed—like lactic acid or enzyme-based ones.<br>
+❗ Avoid scrubs or strong acids that irritate skin.<br>
+
+• Face Mask (1x/week):<br>
+🔸 Use calming masks that reduce redness and hydrate.<br>
+🔸 Choose ingredients like oatmeal, honey, or aloe vera.<br><br>
+</dd>
+<dt><b>And here are some natural recipes for sensitive skin 🌸🍯🍃:</b></dt>
+<dd>
+    <b class="five">1. Oatmeal + Honey Mask</b><br>
+Ingredients:<br>
+1 tablespoon ground oats.<br>
+1 teaspoon honey.<br>
+Effect:<br>
+🌾 Calms irritation and hydrates. Oats soothe inflammation, and honey has natural healing properties.<br><br>
+
+<b class="five">2. Aloe Vera + Cucumber Mask</b>
+Ingredients:<br>
+1 tablespoon aloe vera gel.<br>
+1 tablespoon cucumber juice (fresh).<br>
+Effect:<br>
+🥒 Cools, hydrates, and calms red or irritated skin. Perfect for sun-sensitive or inflamed skin. <br><br>
+
+<b class="fivr">3. Yogurt + Chamomile Tea Mask</b>
+Ingredients:<br>
+1 tablespoon plain yogurt.<br>
+1 teaspoon cooled chamomile tea.<br>
+Effect:<br>
+🍵 Soothes and gently refreshes. Chamomile reduces redness, and yogurt hydrates gently.<br><br>
+
+  <b> 💅🏻 Masks application:</b> <br>
+1.Wash your face and dry it.
+<br>
+2.Apply mask with clean fingers or a brush—thin, even layer.
+<br>
+3.Avoid eyes and lips.
+<br>
+4.Leave for 15–20 mins.
+<br>
+5.Rinse with lukewarm water and pat dry.
+<br>
+6.Moisturize after.
+<br><br>
+</dd>
+</dl>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
