@@ -62,5 +62,4 @@ background-image: url(image7.jpg);
 div {
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
